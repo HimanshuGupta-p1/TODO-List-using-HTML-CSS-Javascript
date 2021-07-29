@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="todo_css.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+  <script src="todo_javascript.js"></script>
+    <h1 id="myheader">TO DO LIST</h1>
+    <input type="button" id="addbutton" style="background-color:indigo; color:cyan; " value="Add" onclick="addTask()"/>
+    <input type="text" style="background-color:cornsilk;color:black; " id="input" placeholder="enter task"/>
+    <hr>
+    <ul id="tasks">
+      <li>
+        <input type="button" class="done" onclick="markDone(this.parentNode)" value="&#10004;"/>
+        <input type="button" class="remove" onclick="remove(this.parentNode)" value="&#10006;"/>
+        <input type="button" class="important" onclick="important(this.parentNode)" value="!"/>
+
+        make todo list
+      </li>
+    </ul>
+  <hr>
+  <div id="divabout" style="color:snow; font-size: 1.5em; font-family:cursive ;"></div><button type="button" onclick="doAbout()">About</button>
+    <button type="button" onclick="clearAbout()">Clear</button> 
+  <div class="note"><h3>NOTE:</h3><ul><li class="notelist">Click on &#10004 for completed work.</li><li class="notelist">Click on &#10006 to eliminate completed work.</li><li class="notelist">Click the <b>!</b> if the work is important or urgent.</li></ul></div>
+</script>
+</body>
+</html>

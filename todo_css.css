@@ -1,0 +1,60 @@
+body{
+  background-color:dodgerblue;
+}
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+  background-color:orange;
+  border: 1px solid #c3c3c3;
+  padding: 10px 0px 10px 5px;
+  font-size:20px;
+}
+
+.notelist{
+background-color: dodgerblue;
+}
+.done {
+background-color: green;
+
+}
+.remove{
+  background-color: red;
+}
+
+li.finished {
+color:white;
+background-color: gray;
+text-decoration:line-through ;
+}
+
+input[type="text"] {
+  font-size: 18px;
+  width: 94%;
+  padding: 10px;
+}
+
+input[type="button"] {
+  font-size: 1.2em;
+  margin: -6px 4px 0px 0px;
+}
+
+#addButton {
+  padding: 10px;
+  color: midnightblue;
+}
+
+.aboutcolor {
+background-color:orangered;
+}
+
+#divabout {
+font-size:20px;
+width:300px;
+margin: 10px;
+}
+.important{
+  background-color: lightblue;
+}
